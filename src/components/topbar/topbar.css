@@ -1,0 +1,66 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background-color: #e7e7e7;
+  width: 100vw;
+  border-bottom: solid 1px #000;
+}
+.topbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 250px;
+}
+
+.top-bar__right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100px;
+}
+.topbar-btn {
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.top-bar__left__logo {
+  font-family: "rockwell";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 25px;
+  color: #2f2f2f;
+}
+.top-bar__center__searchbar {
+  width: 280px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.top-bar__center__searchbar input {
+  border: none;
+  width: 90%;
+}
+.top-bar__center__searchbar input:focus {
+  outline: none;
+}
+.profile__img {
+  width: 30px;
+  cursor: pointer;
+}
+.topbar-option-menu {
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  background-color: #fff;
+  border: solid 1px #000;
+  display: none;
+}
+.active {
+  display: block;
+}
